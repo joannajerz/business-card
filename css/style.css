@@ -8,4 +8,56 @@ html{
 
 body{
     background: #0097A7;
+    min-height: 100vh;
+    padding: 16px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.card{
+    background: white;
+    border-radius: 16px;
+    max-width: 624px;
+    width:100%;
+    padding: 32px;
+}
+.person{
+    display: flex;
+    align-items: center;
+}
+.person_description{
+    font-size: 16px;
+    line-height: 22px;
+}
+.person_header{
+    margin-bottom: 32px;
+}
+.person_image{
+    margin-right: 32px;
+
+}
+.person_name {
+    margin:0px;
+    font-weight: normal;
+    font-size: 36px;
+}
+.person_position{
+    color:#757575;
+    font-style: italic;
+    font-size: 18px;
+}
+.person_special{
+    font-weight: normal;
+    color: #AFB42B;
+
+}
+.person_special__more{
+    color: #ED6D05;
+    font-weight: normal;
+}
+.person_link{
+    font-weight: normal;
+    color: #00BCD4;
 }
