@@ -31,6 +31,9 @@ body{
     font-size: 16px;
     line-height: 22px;
 }
+.person_description--last{
+    margin-bottom:0;
+}
 .person_header{
     margin-bottom: 32px;
 }
